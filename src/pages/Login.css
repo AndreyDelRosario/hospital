@@ -1,0 +1,125 @@
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+/* FULL SCREEN */
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* center login */
+  align-items: center;
+  background-color: #b4d7ff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* LEFT LOGO */
+.left-logo {
+  position: absolute;
+  left: -330px;
+  top: 50%;
+  width: 500px;
+  pointer-events: none;
+
+  transform: translateY(-50%) rotate(10deg);
+}
+
+.right-logo {
+  position: absolute;
+  right: -330px;
+  top: 28%;
+  width: 500px;
+  pointer-events: none;
+
+  transform: translateY(-50%) rotate(-10deg);
+}
+/* LOGIN BOX CENTER */
+.login-form {
+  width: 320px;
+  padding: 30px;
+  background-color: #4a7ff7;
+  border-radius: 13px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+/* TITLE */
+.title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+.input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #c2dcff;
+}
+
+/* PASSWORD */
+.password-wrapper {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.password-input {
+  width: 85%;
+  padding: 10px 40px 10px 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #c2dcff;
+}
+
+/* EYE */
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+/* OPTIONS */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: white;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.options a {
+  color: #2452bd;
+}
+
+/* BUTTON */
+.login-btn {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #1e1bae;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* SIGNUP */
+.signup {
+  margin-top: 15px;
+  color: white;
+}
+
+.signup a {
+  color: #2452bd;
+
+}
